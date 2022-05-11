@@ -1,5 +1,6 @@
 const data = [
   {
+      id: 1,
       title: "Mount Fuji",
       location: "Japan",
       googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -9,6 +10,7 @@ const data = [
       imageUrl: "mountain.png"
   },
   {
+    id: 2,
     title: "Sydney Opera House",
       location: "Australia",
       googleMapsUrl: "https://goo.gl/maps/HK5T7Yu3M2cCkSRs9",
@@ -18,6 +20,7 @@ const data = [
       imageUrl: "sydney.png"
   },
   {
+    id: 3,
     title: "Geirangerfjord",
       location: "Norway",
       googleMapsUrl: "https://goo.gl/maps/2WLJQuDnfVj4Xvc28",
@@ -27,6 +30,7 @@ const data = [
       imageUrl: "fjord.png"
   },
   {
+    id: 4,
     title: "Prague",
       location: "Czech Republic",
       googleMapsUrl: "https://goo.gl/maps/2W3CrVtuz9LiDJQy8",
@@ -36,6 +40,7 @@ const data = [
       imageUrl: "prague.png"
   },
   {
+    id: 5,
     title: "Chaweng Beach",
       location: "Thailand",
       googleMapsUrl: "https://goo.gl/maps/St5TorgNcs2Nevwu9",
