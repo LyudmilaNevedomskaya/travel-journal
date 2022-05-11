@@ -2,8 +2,9 @@ import React from "react";
 
 export default function Card(props) {
   return (
+    <>
     <div className="card">
-      <img src={require(`../images/${props.imageUrl}`)} alt='travel-view'/>
+      <img className="place-view" src={require(`../images/${props.imageUrl}`)} alt='travel-view'/>
       <section className="card--content">
         <div className="location">
           <img src={require('../images/location-sign.png')} alt='location-sign'/>
@@ -15,5 +16,7 @@ export default function Card(props) {
         <p className="card--content_description">{props.description}</p>
       </section>
     </div>
+    <hr />
+    </>
   )
 }
